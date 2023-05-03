@@ -45,7 +45,7 @@ Se è vera, cioè "span" è effettivamente maggiore della lunghezza dell'array "
         return 1;
     }
     
-      ```  
+   ```  
 
   Il primo if controlla se "span" è minore di zero. Se questa è vero, viene lanciata un'eccezione di tipo "ArgumentException" con il messaggio "La lunghezza deve essere maggiore o uguale a zero"
 Il secondo if controlla se "span" è uguale a zero. Se è vero, il metodo restituisce il valore 1. Questo è un controllo per il caso in cui la lunghezza specificata sia zero, il che significa che non ci sono cifre da utilizzare per creare il numero richiesto. In questo caso, la funzione restituisce 1, poiché c'è solo un modo per rappresentare il numero zero con zero cifre: il valore zero stesso.
